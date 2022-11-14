@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+body,
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#content-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 0;
+    top: 50px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    background-color: rgb( 33, 41, 66);
+    border-radius: 9px;
+    border-top: 10px solid #79a6fe;
+    border-bottom: 10px solid #8BD17C;
+    width: 400px;
+    height: 500px;
+    box-shadow: 1px 1px 108.8px 19.2px rgb(25, 31, 53);
+}
+
+.box h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #5c6bc0;
+    font-size: 50px;
+    margin: 60px 0 45px 0;
+}
+
+.box h4 span {
+    color: #dfdeee;
+    font-weight: lighter;
+}
+
+.box input[type="text"],
+.box input[type="password"],
+.box input[type="number"] {
+    display: block;
+    margin: 20px auto;
+    background: #262e49;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: #d6d6d6;
+}
+
+.box input[type="text"]:focus,
+.box input[type="number"]:focus,
+.box input[type="password"]:focus {
+    border: 1px solid #79A6FE;
+}
+
+a {
+    color: #5c7fda;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label input[type="checkbox"] {
+    display: none;
+}
+
+label span {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #464d64;
+    border-radius: 2px;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    float: left;
+    left: 7.5%;
+}
+
+.btn1 {
+    border: 0;
+    background: #7f5feb;
+    color: #dfdeee;
+    border-radius: 100px;
+    width: 340px;
+    height: 49px;
+    font-size: 16px;
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn2 {
+    top: 88%;
+    left: 77px;
+}
+
+.btn1:hover {
+    background: #5d33e6;
+}
+
+.rmb {
+    position: absolute;
+    margin-left: -24%;
+    margin-top: 0px;
+    color: #dfdeee;
+    font-size: 13px;
+    top: 316px;
+    left: 152px;
+}
+
+.forgetpass {
+    position: relative;
+    float: right;
+    right: 28px;
+}
+
+.dnthave {
+    position: absolute;
+    top: 92%;
+    left: 24%;
+}
+
+[type=checkbox]:checked+span:before {
+    font-family: FontAwesome;
+    font-size: 17px;
+    content: "\f00c";
+    position: absolute;
+    top: -9px;
+    color: #896cec;
+    left: -2px;
+    width: 13px;
+}
+
+.typcn {
+    position: absolute;
+    left: 320px;
+    top: 240px;
+    color: #3b476b;
+    font-size: 29px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.eye1 {
+    position: absolute;
+    left: 358px;
+    top: 357px;
+    color: #3b476b;
+    font-size: 33px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.eye2 {
+    position: absolute;
+    left: 358px;
+    top: 427px;
+    color: #3b476b;
+    font-size: 33px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.typcn.active {
+    color: #7f60eb;
+}
+
+.error {
+    background: rgba(192, 191, 191, 0.9);
+    text-align: center;
+    width: 337px;
+    height: 30px;
+    padding: 2px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px auto 10px;
+    position: absolute;
+    top: 24%;
+    left: 7.2%;
+    color: rgb(31, 30, 30);
+    display: none;
+}
+
+.modal {
+    background: transparent;
+}
+
+.modal-content {
+    border: 1px solid #8BD17C;
+    border-radius: 30px;
+}
+
+.modal-body {
+    height: 630px;
+    background-color: #1d243d;
+    border: 0.5px solid #8BD17C;
+    border-radius: 30px;
+}
+
+.form2 input[type="checkbox"] {
+    background-color: initial;
+    cursor: default;
+    border: initial;
+    appearance: auto;
+}
+
+#form2 label input[type="checkbox"] {
+    display: none;
+}
+
+#form2 label span {
+    height: 13px;
+    width: 13px;
+    border: 2px solid rgb(70, 77, 100);
+    border-radius: 2px;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    float: left;
+    left: 18.5%;
+}
+
+#form2 [type=checkbox]:checked+span:before {
+    font-family: FontAwesome;
+    font-size: 17px;
+    content: "\f00c";
+    position: absolute;
+    top: -9px;
+    color: #8bd17c;
+    left: -2px;
+    width: 13px;
+}
+
+#form2 .rule {
+    color: beige;
+    position: relative;
+    top: -3px;
+    left: 101px;
+}
+
+#form2 h4 {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 56px;
+}
+
+.place {
+    top: 14%;
+    left: 16.3%;
+    width: 330px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.rule a {
+    color: #8bd17c;
+    text-decoration: none;
+}

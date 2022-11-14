@@ -1,0 +1,2 @@
+- Ðãng Ky van con loi kiem tra thong tin
+- Ðãng nhap vào Admin Control: TK: admin, pass:123456
