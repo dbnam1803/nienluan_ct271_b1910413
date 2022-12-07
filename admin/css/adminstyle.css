@@ -5,8 +5,7 @@
 
 h1 {
     text-align: center;
-    color: #f1f2f6;
-    margin: 30px auto;
+    color: black;
 }
 
 .sidebar {
@@ -14,8 +13,7 @@ h1 {
     min-height: 500px;
     height: 700px;
     float: left;
-    background-color: #1e272e;
-    border: 1px solid #f1f2f6;
+    background-color: #fff;
 }
 
 .side_list {
@@ -24,7 +22,7 @@ h1 {
 
 .side_list>.list_D {
     padding-left: 30px;
-    border-bottom: 1px solid #f1f2f6;
+    border-bottom: 1px solid black;
 }
 
 .side_list>.list_D>a {
@@ -33,7 +31,7 @@ h1 {
 
 .side_list>.list_D>a>h5 {
     margin: 10px 0;
-    color: #f1f2f6;
+    color: black;
 }
 
 
@@ -45,7 +43,7 @@ h1 {
     min-height: 700px;
     height: auto;
     float: right;
-    background-color: #fdfdfd;
+    background-color: #fff;
 }
 
 

@@ -2,7 +2,7 @@
     <div class="footer bgfoot">
         <div class="container">
             <p>
-                &copy 2022 Bản Quyền Thuộc Về TABATO 
+                &copy 2022 Bản Quyền Thuộc Về HARAMODE
                 <a href="#" target="blank"><i class="fa-brands fa-facebook"></i></a> 
                 <a href="#" target="blank"><i class="fa-brands fa-twitter"></i></a> 
                 <a href="#" target="blank"><i class="fa-brands fa-youtube"></i></a>

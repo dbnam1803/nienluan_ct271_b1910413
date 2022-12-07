@@ -38,7 +38,7 @@ nav.navbar.navbar-expand-sm.navbar-dark.mybg {
 
 .form_icon>button {
     position: absolute;
-    color: rgb(163, 166, 168);
+    color: black;
     display: inline-block;
     z-index: 2;
 }
@@ -49,17 +49,17 @@ nav.navbar.navbar-expand-sm.navbar-dark.mybg {
 
 .form_icon>input {
     padding-left: 35px;
-    border: 1px solid #dbd6d6;
+    border: 1px solid #d2f1f8;
     z-index: 1;
 }
 
 input#searchkeyword:focus {
-    border: 1px solid #dbd6d6;
+    border: 1px solid #d2f1f8;
     outline: none;
 }
 
 .form_icon>button:hover {
-    color: aliceblue;
+    color: #dbd6d6;
 }
 
 
@@ -105,7 +105,7 @@ input#searchkeyword:focus {
 .sp_title {
     margin: 0;
     border-top: 1px solid #95a5a6;
-    background-color: #dcdde1;
+    background-color: #ffffff;
     color: #1e272e;
 }
 
@@ -241,11 +241,11 @@ a.nav-link {
 }
 
 .user {
-    color: #d2dae2;
+    color: black;
     text-decoration: none;
     border-radius: 30px;
     border: 1px solid #d7d7df;
-    background: #1e272e;
+    background: #ffffff;
     padding: 10px 10px;
 }
 

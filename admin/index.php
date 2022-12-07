@@ -18,17 +18,14 @@
     <link rel="stylesheet" href="css/adminstyle.css">
 
 </head>
-<body class="bg-dark">
+<body>
     <?php
         include("connected.php")
     ?>
-    <div class="header">
-        <h1>Admin Control</h1>
-    </div>
-    <div class="container">
         <div class="menu">
             <?php
-                include("module/menu.php")
+                include("module/header.php");
+                include("module/menu.php");
             ?>
         </div>
         <div class="main container">
@@ -36,6 +33,5 @@
                 include("module/main.php")
             ?>
         </div>
-    </div>
 </body>
 </html>

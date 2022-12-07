@@ -28,20 +28,20 @@
                             <a class="nav-link <?php if($nav=='gioithieu') {echo 'active';} ?>" href="gioithieu.php?control=gioithieu">Giới Thiệu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php if($nav=='sizecheck') {echo 'active';} ?>" href="sizecheck.php?control=sizecheck">size-check</a>
+                            <a class="nav-link <?php if($nav=='sizecheck') {echo 'active';} ?>" href="sizecheck.php?control=sizecheck">Size-Check</a>
                         </li>
                     </ul>
                     <form method="POST" id="form-serach1" action="index.php?control=timkiem">
                         <label class="form_icon">
                         <button id="searchitem" name="search" type="submit" class="btn btn-primary-outline"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        <input class="form-control me-2 btn-dark" id="searchkeyword" name="searchkey" type="text" placeholder="Search" autocomplete="off">
+                        <input class="form-control me-2 " id="searchkeyword" name="searchkey" type="text" placeholder="Search" autocomplete="off">
                     </label>
                     </form>
                     <?php
                         if(isset($_COOKIE['user'])){
                     ?>
                         <a class="user"  href="user.php"><?php echo $_COOKIE['user'] ?></a>
-                        <a  href="index.php?logout=1">&ensp;<i class="fa-solid fa-right-from-bracket"></i> </a>;
+                        <a  href="index.php?logout=1">&ensp;<i class="fa-solid fa-right-from-bracket"></i> </a>
                     <?php
                         }else{
                     ?>
